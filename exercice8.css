@@ -1,0 +1,43 @@
+body{
+  font-size: 1.3em;
+  margin: 0px;
+  padding: 0px;
+  background-color: rgb(75,75,75);
+}
+.menu{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  list-style-type: none;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+.service{
+  transition: height 0.5s linear; /*permet une transition à
+  tout changements d'états (à ne pas mettre dans hover)*/
+}
+.deroulant{
+  height:0px; /*cacher le déroulant*/
+  overflow: hidden; /*https://developer.mozilla.org/fr/docs/Web/CSS/overflow*/
+  transition: height 0.5s linear;
+}
+.menu>li{
+  background-color: maroon;
+  border:solid 3px black;
+  padding: 25px;
+  margin: 50px;
+  height: 25px;
+}
+.service:hover{
+  height: 165px; /* agrandir le cadre */
+
+}
+.service:hover .deroulant{
+  height: 165px; /* agrandir le cadre du texte invisible*/
+
+}
+.deroulant li{
+  margin: 25px;
+}
