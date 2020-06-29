@@ -1,0 +1,37 @@
+body{
+  font-size: 1em;
+  font-family: helvetica, Arial, sans-serif;
+  width: 800px;
+  margin: auto;
+  line-height: 1.5;
+}
+h1{
+  font-size: 1.5em;
+  margin-bottom: 1.5em;
+  color: #454545;
+  font-weight: bold;
+}
+p:first-of-type{
+  color:#7a7a7a;
+  margin-left: 20px;
+  margin-bottom: 1.5em;
+}
+blockquote{
+  font-style: italic;
+  font-size: 1.2em;
+  margin-right: 80px;
+  margin-bottom: 20px;
+  margin-left: 60px;
+  background-color: #e7f2fa ;
+  color: #444;
+  border-left: solid 5px #8870FF;
+  padding: 15px;
+}
+em{
+  display: flex;
+  justify-content: flex-end;
+}
+a{
+  color: #8870FF;
+  margin: 20px;
+}
