@@ -1,0 +1,26 @@
+.article{
+  position: absolute;
+  right: 50%;
+  transform: translateX(50%);
+  width: 650px;
+  padding-bottom: 500px;
+  margin-left: 50px;
+  margin-top: 20px;
+  background-color:grey;
+}
+.details{
+  width: 250px;
+  background-color: lightblue;
+  position: absolute;
+
+  top: 100px;
+  right:0px;
+}
+.fix{
+  padding-bottom: 25px;
+  padding-right:90px;
+  background-color: lightblue;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
