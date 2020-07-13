@@ -1,0 +1,104 @@
+@font-face {
+  font-family:"gros_titre";
+  src:url("HipotesiS.ttf");
+}
+@font-face {
+  font-family:"text";
+  src:url("NyataFTR-Regular.otf");
+}
+body{
+  font-family:"text";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  top: 0;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color:white;
+}
+.back{
+  position: absolute;
+  background-image: url("theatre.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: blur(7px);
+  bottom: 0;
+  right: 0;
+  left: 0;
+  top: 0;
+  z-index: -1000;
+}
+section{
+  margin: auto;
+}
+.presentation{
+  background-color: rgba(0, 0, 0, 0.65);
+  border-bottom:ridge 6px rgb(170,72,0);
+  border-top:ridge 6px rgb(170,72,0);
+  border-radius: 10px;
+  box-shadow:inset 0px 13px 15px rgba(200, 0, 0, 0.8),
+  inset 0px -13px 15px rgba(200, 0, 0, 0.8);
+  text-align: center;
+  width: 40%;
+  padding:25px;
+  padding-bottom: 35px;
+}
+.presentation h1{
+  font-family:"gros_titre";
+  margin: auto;
+  width: 55%;
+  border-bottom: solid 2px rgb(255,116,13);
+  color: white;
+  font-size: 1.3em;
+  font-weight: bold;
+  text-align: center;
+}
+.presentation h2{
+  margin: auto;
+  width: 80%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-bottom: solid 2px rgb(255,67,4);
+  color: white;
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+}
+.presentation p{
+  font-size: 1.2em;
+  line-height: 1.3;
+}
+.formulaire{
+  padding: 25px;
+  background-color: rgba(0, 0, 0, 0.65);
+  border-left:ridge 6px rgb(170,72,0);
+  border-right:ridge 6px rgb(170,72,0);
+  border-radius: 10px;
+  box-shadow:inset 13px 0px 15px rgba(200, 0, 0, 0.8),
+  inset -13px 0px 15px rgba(200, 0, 0, 0.8);
+  height: 550px;
+  border-radius: 10px;
+  width: 20%;
+  margin-right: 150px;
+}
+.formulaire h1{
+  border-bottom: solid 2px rgb(255,116,13);
+  margin-bottom: 35px;
+  font-size: 2.5em;
+  font-weight: bold;
+  text-align: center;
+}
+input[type=text]{
+  margin-left: 20px;
+  margin-bottom: 25px;
+}
+.remember_me{
+  border-top: solid 2px rgb(255,116,13);
+  margin-bottom: 25px;
+}
